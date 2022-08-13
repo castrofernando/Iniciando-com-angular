@@ -1,0 +1,82 @@
+h1{
+  margin: 1em 0;
+}
+
+.moment{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.moment img{
+  max-width: 600px;
+}
+
+.about-moment{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2em;
+  border-bottom: 1px solid #a1a1a1;
+  width: 100%;
+  max-width: 600px;
+}
+
+.action{
+  background-color: #e1e1e1;
+  max-width: 600px;
+  padding:1.2em;
+  text-align: center;
+  border-bottom: 1px solid #a1a1a1;
+  margin-bottom: 1.2em;
+  width: 100%;
+}
+
+.action h3{
+  margin-bottom: 1em;
+}
+
+.comments {
+  margin-bottom: 1em;
+  padding: 1.5em 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.about-moment h3,
+.actions h3,
+.comments h3 {
+  margin-bottom: 1em;
+}
+
+.comment-container {
+  text-align: left;
+  border-bottom: 1px solid #efefef;
+  padding: 1em 0;
+}
+
+.comment {
+  font-size: 0.9em;
+}
+
+.author {
+  font-size: 0.8em;
+}
+
+.comment-form {
+  margin-bottom: 3em;
+}
+
+.comment-form form {
+  margin-top: 1em;
+  text-align: left;
+  max-width: 300px;
+  margin-left: 0;
+}
+
+.author span {
+  font-weight: bold;
+}

@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
+  color: #444;
+}
+
+
+a{
+  text-decoration: none;
+  color: #444;
+  transition: 0.4s;
+}
+
+a:hover{
+  color: #dec129;
+}
+
+/* FORMS */
+form {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+
+}
+
+.form-group label{
+  font-weight: bold;
+  font-size: .9em;
+  margin-bottom: .4em;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: .6em;
+  color: #777;
+  font-size: 8.em;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 2px solid #dec129;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+input[type="submit"]:hover{
+  background-color:#dec129 ;
+}
+
+input[type='file'] {
+  display: none
+}
+
+.input-wrapper{
+  margin: 10px 0;
+}
+
+.input-wrapper label {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 2px solid #dec129;
+  padding: 10px;
+  border-radius: 10px;
+  transition: .4s;
+  font-weight: normal;
+}
+
+.input-wrapper label:hover {
+  background-color: #dec129;
+}
+
+.validation-error p{
+  color: #DC3545;
+  margin-top: 04.em;
+
+}
+
+/*BUTTON*/
+.edit-btn,
+.edit-btn path{
+   padding: .5em;
+   background-color: #fff;
+   border: 2px solid #dec129;
+   border-radius: 5px;
+   cursor: pointer;
+   margin: 0.3em;
+   transition: .4s;
+   color: #dec129;
+}
+
+.edit-btn:hover,
+.edit-btn:hover path{
+  background-color: #f1f1f1;
+  color: #00A1F2;
+}
+
+
+.remove-btn,
+.remove-btn path{
+   padding: .5em;
+   background-color: #fff;
+   border: 2px solid #dec129;
+   border-radius: 5px;
+   cursor: pointer;
+   margin: 0.3em;
+   transition: .4s;
+   color: #dec129;
+}
+
+.remove-btn:hover,
+.remove-btn:hover path{
+  background-color: #f1f1f1;
+  color: #DC3545;
+}
+

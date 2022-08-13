@@ -6,5 +6,5 @@ Navegue até a pasta <i>\backend</i> e digite:
 ``` node ace serve ```
 
 # iniciando o frontend
-Navegue para dentro de <i>\frontend\momments</i> e digite:
+Navegue para dentro de <i>\frontend</i> e digite:
  ``` npm run start ``` ou  ``` ng serve ```
